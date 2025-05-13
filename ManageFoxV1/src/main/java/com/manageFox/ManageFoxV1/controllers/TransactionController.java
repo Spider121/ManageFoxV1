@@ -9,14 +9,11 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/manageFoxV1/Api/Transactions")
-
+@AllArgsConstructor
 public class TransactionController {
 
     private final TransactionService transactionService;
 
-    public TransactionController(TransactionService transactionService) {
-        this.transactionService = transactionService;
-    }
 
     @GetMapping("/getAllTnx")
     public List<Transaction> getAllTransaction() {
@@ -29,7 +26,7 @@ public class TransactionController {
         return "Transaction Completed Successfully ";
     }
 
-    @DeleteMapping
+    @DeleteMapping("/deleteTnx/{id}")
     public String deleteTransaction(@PathVariable("id") String id) {
         this.transactionService.deleteTransaction(Integer.parseInt(id));
         return "Transaction  Deleted Successfully ";
