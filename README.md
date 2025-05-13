@@ -32,7 +32,45 @@ Base URL: `/manageFoxV1/Api/Transactions`
 ## 📦 Sample Requests
 
 ### ➕ Add a Transaction
-```http
+http
 POST /manageFoxV1/Api/Transactions/addTransaction
 Content-Type: application/json
+
+GET /manageFoxV1/Api/Transactions/getAllTnx
+
+## 🧰 Tech Stack
+
+- **Java 17+**
+- **Spring Boot**
+- **Spring Web (REST)**
+- **Lombok**
+
 ---
+
+## 🛠 Requirements
+
+- Java 17 or later installed
+- Maven build tool
+- Any Spring Boot-compatible IDE (e.g., IntelliJ IDEA, Eclipse, VS Code)
+
+---
+
+## 🤝 Contribution
+
+Contributions are welcome!  
+Feel free to fork the repository, enhance the code, and submit a pull request.
+
+For major changes, please open an issue first to discuss your ideas.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 📬 Contact
+
+Created by **[Prem mankar]** – feel free to reach out!
+
