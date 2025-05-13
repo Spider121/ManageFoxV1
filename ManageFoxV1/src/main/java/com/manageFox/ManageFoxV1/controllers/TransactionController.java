@@ -32,7 +32,7 @@ public class TransactionController {
     @DeleteMapping
     public String deleteTransaction(@PathVariable("id") String id) {
         this.transactionService.deleteTransaction(Integer.parseInt(id));
-        return "Transaction Deleted Successfully ";
+        return "Transaction  Deleted Successfully ";
     }
 
     @PutMapping("/UpdateTnx")
