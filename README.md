@@ -41,7 +41,7 @@ Content-Type: application/json
   "amount": 500,
   "description": "Test Transaction"
 }
-
+---
 ## 🧰 Tech Stack
 
 - **Java 17+**
