@@ -63,27 +63,38 @@ Content-Type: application/json
   "amount": 1000,
   "description": "Updated Description"
 }
-🧰 Tech Stack
-Java 17+
+## 🧰 Tech Stack
 
-Spring Boot
+- **Java 17+**
+- **Spring Boot**
+- **Spring Web (REST)**
+- **Lombok**
 
-Spring Web (REST)
+---
 
-Lombok
+## 🛠 Requirements
 
-🛠 Requirements
-Java 17 or later
+- Java 17 or later installed
+- Maven build tool
+- Any Spring Boot-compatible IDE (e.g., IntelliJ IDEA, Eclipse, VS Code)
 
-Maven
+---
 
-Spring Boot-compatible IDE (IntelliJ, Eclipse, VS Code)
+## 🤝 Contribution
 
-🤝 Contribution
-Feel free to fork this repository, improve the code, and create a pull request. For major changes, please open an issue first to discuss your ideas.
+Contributions are welcome!  
+Feel free to fork the repository, enhance the code, and submit a pull request.
 
-📄 License
-This project is licensed under the MIT License.
+For major changes, please open an issue first to discuss your ideas.
 
-📬 Contact
-Created by [Your Name] - Feel free to reach out!
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 📬 Contact
+
+Created by **[Prem mankar]** – feel free to reach out!
