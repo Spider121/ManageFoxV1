@@ -42,27 +42,6 @@ Content-Type: application/json
   "description": "Test Transaction"
 }
 
-📥 Get All Transactions
-http
-Copy
-Edit
-GET /manageFoxV1/Api/Transactions/getAllTnx
-❌ Delete a Transaction
-http
-Copy
-Edit
-DELETE /manageFoxV1/Api/Transactions/1
-🔄 Update a Transaction
-http
-Copy
-Edit
-PUT /manageFoxV1/Api/Transactions/UpdateTnx/1
-Content-Type: application/json
-
-{
-  "amount": 1000,
-  "description": "Updated Description"
-}
 ## 🧰 Tech Stack
 
 - **Java 17+**
@@ -96,5 +75,7 @@ This project is licensed under the **MIT License**.
 ---
 
 ## 📬 Contact
+
+Created by **[Your Name]** – feel free to reach out!
 
 Created by **[Prem mankar]** – feel free to reach out!
